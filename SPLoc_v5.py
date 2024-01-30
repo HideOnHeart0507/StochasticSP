@@ -14,8 +14,8 @@ import datetime
 replications_range = range(1,10)  # number of random replications for each settings combination of m,n,r, and p
 C = np.array( [30,50, 80])   # Possible SP capacities
 C_num = len(C)
-alpha_range = [50, 200] # range of the weights of rejectionsin the objective function
-p_range = [0.3, 0.5]   # range of periodic pikcup probability
+alpha_range = [50, 200] # range of the weights of rejections in the objective function
+p_range = [0.3, 0.5]   # range of periodic pickup probability
 m_range = [50, 100]      # range of the number of candidate SP locations
 n_range = [200,400]   # range of the number of demand point in the models
 r_range = [0.1, 0.15]  # Service radius range (since the locations are always generated on a unit square this value shudld decrease when m and n are increased
